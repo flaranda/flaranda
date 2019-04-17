@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "now-build": "next build && next export -o dist",
+    "deploy": "now --scope flaranda --target production",
+    "favicon": "favicon-emoji -e 🤓 -d ./assets/favicon.ico -p ./assets/favicon.png -m"
+  },
+  "dependencies": {
+    "animate-css-styled-components": "^1.0.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "^4.2.0",
+    "styled-reset": "^2.0.6",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "favicon-emoji": "^2.3.0"
+  }
+}

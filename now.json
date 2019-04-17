@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "flaranda",
+  "alias": "flaranda.com",
+  "public": true,
+  "regions": ["all"],
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" },
+    { "src": "/assets/*", "use": "@now/static" }
+  ],
+  "routes": [
+    { "src": "^/$", "dest": "/index.js", "headers": { "Cache-Control": "max-age=31536000" } },
+    { "src": "^/assets/(.*)$", "dest": "/assets/$1", "headers": { "Cache-Control": "max-age=31536000" } },
+    { "src": "^/_next/static/(.*)$", "dest": "/_next/static/$1", "headers": { "Cache-Control": "max-age=31536000" } },
+    { "src": "^.+$", "status": 301, "headers": { "Location": "https://flaranda.com" } }
+  ]
+}
