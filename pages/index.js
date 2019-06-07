@@ -26,9 +26,6 @@ export default () => (
         I've been passionate about technology since I was a kid. I enjoy designing and developing tech-based products, getting involved in business processes and iterating to fit the user needs.
       </IndexResume>
       <IndexResume>
-        Currently, I lead product development as CTO & Founder at <a href="https://wwww.fontown.com" target="blank">Fontown</a>, choosing the best technologies and analizing users behavior to make the product grow properly.
-      </IndexResume>
-      <IndexResume>
         My top 5 buzzwords: React, Next.js, Node, Ruby, Golang.
       </IndexResume>
       <IndexNetworks>
