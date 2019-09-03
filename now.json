@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "flaranda",
-  "alias": "flaranda.com",
   "public": true,
   "regions": ["all"],
   "builds": [
