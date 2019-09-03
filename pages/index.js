@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Container } from '../components/grid';
+import { Container } from '../components/Container';
 
 const networks = [
   { title: 'Linkedin', href: 'https://www.linkedin.com/in/flaranda' },
@@ -45,7 +45,7 @@ const Index = styled.section`
   display: flex;
   padding: 128px 128px 0;
 
-  a { 
+  a {
     color: black;
     text-decoration: none;
 
