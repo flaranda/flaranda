@@ -7,7 +7,8 @@ import {
   index__subtitle,
   index__resume,
   index__networks,
-  index__networks__item
+  index__networks__item,
+  index__tnp__link
 } from '../styles/index.module.scss'
 
 const networks = [
@@ -31,6 +32,9 @@ export default () => (
       </h1>
       <p className={index__resume}>
         I've been passionate about technology since I was a kid. I enjoy designing and developing tech-based products, getting involved in business processes and iterating to fit the user needs.
+      </p>
+      <p className={index__resume}>
+        Currently working with my friends at <a className={index__tnp__link} href="https://theneonproject.org/" target="blank">The Neon Project</a>.
       </p>
       <p className={index__resume}>
         My top 5 buzzwords: React, Next.js, Node, Ruby, Golang.
