@@ -1,15 +1,18 @@
 import React from 'react'
 
-import { container } from '../styles/container.module.scss'
-import {
+import containerStyles from '../styles/container.module.scss'
+import indexStyles from '../styles/index.module.scss'
+
+const { container } = containerStyles
+
+const {
   index,
   index__title,
   index__subtitle,
   index__resume,
   index__networks,
-  index__networks__item,
-  index__tnp__link
-} from '../styles/index.module.scss'
+  index__networks__item
+} = indexStyles
 
 const networks = [
   { title: 'Linkedin', href: 'https://www.linkedin.com/in/flaranda' },
@@ -18,7 +21,7 @@ const networks = [
   { title: 'Instagram', href: 'https://www.instagram.com/flaranda' },
 ]
 
-export default () => (
+const Index = () => (
   <main className={index}>
     <section className={container}>
       <h1 className={index__title}>
@@ -34,10 +37,7 @@ export default () => (
         I've been passionate about technology since I was a kid. I enjoy designing and developing tech-based products, getting involved in business processes and iterating to fit the user needs.
       </p>
       <p className={index__resume}>
-        Currently working with my friends at <a className={index__tnp__link} href="https://theneonproject.org/" target="blank">The Neon Project</a>.
-      </p>
-      <p className={index__resume}>
-        My top 5 buzzwords: React, Next.js, Node, Ruby, Golang.
+        My top 5 buzzwords: Node, React, Next.js, Ruby, Golang.
       </p>
       <div className={index__networks}>
         {networks.map(({ title, href }) => (
@@ -51,3 +51,5 @@ export default () => (
     </section>
   </main>
 )
+
+export default Index

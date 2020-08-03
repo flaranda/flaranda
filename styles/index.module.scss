@@ -23,8 +23,8 @@
   display: block;
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  font-size: 96px;
-  line-height: 176px;
+  font-size: 6rem;
+  line-height: 10rem;
 
   @media only screen and (max-width: 1023px) {
     font-size: 72px;
@@ -41,8 +41,8 @@
   display: block;
   font-family: 'Merriweather', serif;
   font-weight: lighter;
-  font-size: 64px;
-  line-height: 96px;
+  font-size: 4rem;
+  line-height: 6rem;
 
   @media only screen and (max-width: 1023px) {
     font-size: 48px;
@@ -113,8 +113,4 @@
       font-size: 16px;
     }
   }
-}
-
-.index__tnp__link {
-  color: #e8418f;
 }
