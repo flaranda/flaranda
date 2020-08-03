@@ -4,9 +4,9 @@
     "build": "next build",
     "start": "next start",
     "now-build": "next build && next export -o dist",
-    "deploy": "now --scope flaranda --prod",
-    "favicon": "favicon-emoji -e 🤓 -d ./assets/favicon.ico -p ./assets/favicon.png -m"
+    "deploy": "now --scope flaranda --prod"
   },
+  "license": "MIT",
   "engines": {
     "node": "10"
   },
@@ -21,7 +21,6 @@
     "@types/react": "^16.9.44",
     "eslint": "^7.6.0",
     "eslint-plugin-css-modules": "^2.11.0",
-    "favicon-emoji": "^2.3.0",
     "typescript": "^3.9.7"
   }
 }
